@@ -4,7 +4,7 @@ const downloadBtn = document.getElementById('downloadBtn');
 
 // Load your frame
 const frameImg = new Image();
-frameImg.src = './frame.png';
+frameImg.src = 'image/frame.png';
 
 frameImg.onload = function () {
     console.log('✅ Frame loaded!');
